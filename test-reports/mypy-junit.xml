@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="1" name="mypy" skips="0" tests="1" time="1.326">
+  <testcase classname="mypy" file="mypy" line="1" name="mypy-py3_11-darwin" time="1.326">
+    <failure message="mypy produced messages">app/services/demo.py:13: error: "Session" has no attribute "__aenter__"; maybe "__enter__"?  [attr-defined]
+app/services/demo.py:13: error: "Session" has no attribute "__aexit__"; maybe "__exit__"?  [attr-defined]
+app/services/demo.py:23: error: "Session" has no attribute "__aenter__"; maybe "__enter__"?  [attr-defined]
+app/services/demo.py:23: error: "Session" has no attribute "__aexit__"; maybe "__exit__"?  [attr-defined]</failure>
+  </testcase>
+</testsuite>
